@@ -1,0 +1,84 @@
+.header h1{ color : blue ; 
+         border: solid ; 
+         border-color: black;
+         display : flex;
+         justify-content: center;
+         background-color : orange;
+         border-bottom-right-radius: 50px;
+         border-top-left-radius: 50px;
+         margin-left: 400px ;
+         margin-right: 500px;
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+
+.header h1:hover{
+       transform: scale(1.2);
+}
+
+.header a:link{
+       color: white;
+       text-decoration: none
+}
+
+.header a:visited{
+       color: yellow;
+}
+
+.hLink{
+       display : flex;
+       justify-content: center;
+       background-color : black;
+       border-bottom-right-radius: 50px;
+       border-top-left-radius: 50px;
+       margin-left: 550px ;
+       margin-right: 650px;
+       padding-left: 15px;
+       padding-right: 20px;
+}
+
+.hLink a{
+       margin-left: 15px ;
+       margin-right: 15px;
+}
+
+.hLink:hover{
+       transform: scale(1.5);
+}
+
+.body1:hover{
+       transform: scale(1.5);
+}
+
+.body2::backdrop{
+         color: blueviolet;
+}
+
+.body1{text-align: center; }
+.body2{text-align :unset;}
+
+hr{color: black;
+   border-color: black;}
+
+html{background-color: #ff7f50;}
+.body1{background-color: blanchedalmond;
+       border: 2px black;
+       border-radius: 500px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-left: 550px;
+       margin-right: 670px;
+}
+
+
+.body2{background-color: cornsilk;
+       text-align: center;
+       border: 1px black;
+       border-bottom-left-radius: 50px;
+       border-top-right-radius: 50px;
+       padding: 15px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       font: larger;
+       font-style: italic;}
